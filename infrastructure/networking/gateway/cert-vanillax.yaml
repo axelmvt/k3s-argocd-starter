@@ -9,7 +9,7 @@ metadata:
     argocd.argoproj.io/compare-options: ServerSideDiff=true
 spec:
   dnsNames:
-    - "*.mvt"
+    - "*.mvt.com.ar"
     - mvt.com.ar
   issuerRef:
     group: cert-manager.io
